@@ -1,0 +1,41 @@
+.auth{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.auth__div1{
+    margin: 200px;
+}
+.auth__div2{
+    width: 500px;
+    border-radius: 20px;
+    height: 600px;
+    border: 1px solid black;
+    margin-top: 100px;
+}
+.btn{
+    background-color: #ececee;
+	color: inherit;
+	border: 1px solid black;
+
+	font: inherit;
+	cursor: pointer;
+	outline: inherit;
+    width: 170px;
+
+}
+.element {
+  text-indent: -9999px;
+  line-height: 0; /* Collapse the original line */
+  width: 150px;
+   border-radius: 5px;
+}
+
+.element::after {
+  content: "Login ...?";
+  text-indent: 0;
+  display:block;
+  line-height: initial;  
+  background: none;
+ 
+}
