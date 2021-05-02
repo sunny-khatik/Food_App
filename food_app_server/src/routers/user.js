@@ -9,6 +9,7 @@ router.get("/test", async (req, res) => {
         console.log("" + error)
     }
 })
+<<<<<<< HEAD
 router.post("/user/register", async (req, res) => {
 
     const user = new User(req.body)
@@ -37,3 +38,7 @@ router.post("/user/logout", async (req, res) => {
 
 })
 module.exports = router
+=======
+
+module.exports = router
+>>>>>>> be2f56af337aa47f13959a8d96326d7a5c29a3e6
