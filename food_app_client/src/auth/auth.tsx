@@ -21,7 +21,7 @@ const Auth = () => {
           (<Login />)
           :(<Register/>)
         }
-            {console.log(toggle)}
+
           <button onClick={setCliclk} className={toggle?"btn":"element"}>Want to Register ..?</button>
 
       </div>
